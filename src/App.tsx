@@ -1,7 +1,12 @@
 import React from "react";
 
-const App = () => {
-	return <h1>Gobarber</h1>;
-};
+import GlobalStyle from "./styles/global";
+
+const App = (): React.FC => (
+	<>
+		<h1>Gobarber</h1>
+		<GlobalStyle />
+	</>
+);
 
 export default App;
